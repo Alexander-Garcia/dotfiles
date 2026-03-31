@@ -4,6 +4,6 @@ set -e
 cd "$(dirname "$0")"
 
 echo "Stowing dotfiles..."
-stow starship tmux
+stow starship tmux claude
 
 echo "Done!"
